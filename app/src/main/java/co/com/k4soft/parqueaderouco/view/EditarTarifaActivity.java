@@ -46,7 +46,7 @@ public class EditarTarifaActivity extends AppCompatActivity {
 
     private void buscarTarifaExistente() {
         String idTarifa = getIntent().getStringExtra("id");
-        tarifaEncontrada = database.getTarifaDAO().getById(Integer.valueOf(idTarifa));
+        tarifaEncontrada = database.getTarifaDAO().getByIdTarifa(Integer.valueOf(idTarifa));
         txtEditarNombre.setText(tarifaEncontrada.getNombre());
         txtEditarTarifa.setText(String.valueOf(tarifaEncontrada.getPrecio()));
     }

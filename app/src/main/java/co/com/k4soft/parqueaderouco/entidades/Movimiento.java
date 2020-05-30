@@ -7,6 +7,7 @@ import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 import co.com.k4soft.parqueaderouco.persistencia.Tabla;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -21,5 +22,16 @@ public class Movimiento {
     private Integer idMovimiento;
     @ColumnInfo(name = "idTarifa")
     private Integer idTarifa;
+    private String placa;
+    @ColumnInfo(name = "fechaEntrada")
+    private String fechaEntrada;
+    @ColumnInfo(name = "fechaSalida")
+    private String fechaSalida;
+    @ColumnInfo(name = "finalizaMovimiento")
+    private boolean finalizaMovimiento;
+    @ColumnInfo(name = "valorTotal")
+    private String valorTotal;
+
+
 
 }

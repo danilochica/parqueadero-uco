@@ -15,4 +15,18 @@
     <string name="sin_tarifas">No existen tarifas configuradas en el sistema</string>
     <string name="editar_registro">Editar registro</string>
     <string name="guardar_cambios">Guardar Cambios</string>
+    <string name="configurar_movimientos">Configuración de movimientos</string>
+    <string name="registro_movimiento">Registro Movimiento</string>
+    <string name="digite_placa">Digite la placa</string>
+    <string name="buscar">Buscar placa</string>
+    <string name="ingresar_parqueadero">Ingresar al parqueadero</string>
+    <string name="salida_parqueadero">Salir del parqueadero</string>
+    <string name="horas_parqueadas">HORAS PARQUEADAS</string>
+    <string name="total_Pagar">TOTAL A PAGAR</string>
+    <string name="seleccionar_tarifa">Debe seleccionar una tarifa</string>
+    <string name="transaccion_exitosa">La transacción se realizó con éxito</string>
+    <string name="consulta_movimientos">Consultar Movimientos</string>
+    <string name="fecha_inicial">Seleccione la fecha inicio</string>
+    <string name="fecha_final">Seleccione la fecha final</string>
+    <string name="buscar_registros">Buscar Registros</string>
 </resources>

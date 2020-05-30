@@ -16,6 +16,9 @@ public interface TarifaDAO {
     @Insert
     void insert(Tarifa tarifa);
 
+    @Update
+    void update(Tarifa tarifa);
+
     @Delete
     void delete(Tarifa tarifa);
 
@@ -26,14 +29,5 @@ public interface TarifaDAO {
     List<Tarifa> listar();
 
     @Query("SELECT * FROM tarifa WHERE idTarifa=:idTarifa")
-    Tarifa getById(Integer idTarifa);
-
-    @Update
-    void update(Tarifa tarifa);
-
-
-
-
-
-
+    Tarifa getByIdTarifa(Integer idTarifa);
 }

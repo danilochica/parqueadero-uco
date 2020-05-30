@@ -40,4 +40,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void goToMovimiento(View view) {
+        Intent intent = new Intent(this, MovimientoActivity.class);
+        startActivity(intent);
+    }
+
+
 }
